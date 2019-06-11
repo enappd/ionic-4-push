@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>
+      Ionic 4 Push
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <ion-list>
+      <ion-list-header color="medium">
+        Push Notifications
+      </ion-list-header>
+      <ion-item *ngFor="let push of pushes">
+        <ion-label text-wrap>
+          <ion-text color="primary">
+            <h3>{{push.title}}</h3>
+          </ion-text>
+          <p>{{push.body}}</p>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+  <div *ngIf="!pushes.length" class="empty">
+    You have no notifications. Send a new notification to see it in the app.
+  </div>
+</ion-content>
