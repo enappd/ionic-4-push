@@ -1,5 +1,6 @@
 # ionic-4-push
-Firebase push example for Ionic 4
+Details of implementing Firebase push in Ionic 4 are discussed in this blog - [FIREBASE PUSH NOTIFICATIONS IN IONIC 4](https://enappd.com/blog/implement-ionic-4-firebase-push/34)
+Also, you can learn in detail how to send various types of push and filter target audience from this blog - [COMPLETE GUIDE ON SENDING PUSH USING FIREBASE CLOUD MESSAGING CONSOLE](https://enappd.com/blog/sending-push-using-firebase-console/35)
 
 
 
